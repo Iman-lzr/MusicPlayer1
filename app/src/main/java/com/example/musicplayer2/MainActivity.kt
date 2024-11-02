@@ -122,19 +122,19 @@ class MainActivity : AppCompatActivity() {
     private fun playMusic() {
         startService(Intent(this, MusicService::class.java).apply { action = "PLAY" })
         playButton.setImageResource(R.drawable.pause)
-        startNoteAnimation() // Démarrer l'animation de note
+        startNoteAnimation()
         isPlaying = true
     }
 
     private fun pauseMusic() {
         startService(Intent(this, MusicService::class.java).apply { action = "PAUSE" })
         playButton.setImageResource(R.drawable.play)
-        stopNoteAnimation() // Arrêter l'animation de note
+        stopNoteAnimation()
         isPlaying = false
     }
 
     private fun handleMusicEnded() {
-        stopNoteAnimation() // Arrêter l'animation de note
+        stopNoteAnimation()
         isPlaying = false
         playButton.setImageResource(R.drawable.play)
         seekBar.progress = seekBar.max
@@ -146,6 +146,6 @@ class MainActivity : AppCompatActivity() {
         unregisterReceiver(updateSeekBarReceiver)
         unregisterReceiver(musicEndedReceiver)
         stopService(Intent(this, MusicService::class.java))
-        stopNoteAnimation() // Assurez-vous d'arrêter l'animation de note
+        stopNoteAnimation()
     }
 }

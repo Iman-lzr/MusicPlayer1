@@ -64,10 +64,10 @@ class MusicService : Service() {
     private fun stopMusic() {
         if (isPlaying) {
             mediaPlayer.stop()
-            mediaPlayer.release() // Libère les ressources
+            mediaPlayer.release()
             isPlaying = false
-            stopForeground(true) // Supprime la notification
-            stopSelf() // Arrête le service
+            stopForeground(true) 
+            stopSelf()
             Log.d("MusicService", "Music stopped and notification removed")
         }
     }
