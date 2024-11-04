@@ -21,6 +21,13 @@
         <br>
         <img width="174" height="350" alt="Démarrage de l'application" src="https://github.com/user-attachments/assets/8bb57c7e-4a5e-447c-b44a-eabc8a421572">
       </td>
+       <td align="center">
+        <span>Notification de lecture </span>
+        <br>
+        <br>
+        <img width="250" height="150" alt="Démarrage de l'application" src="https://github.com/user-attachments/assets/d333671e-9fd4-434e-b8b9-0fd67387a530">
+          <img width="250" height="150" alt="Démarrage de l'application" src="https://github.com/user-attachments/assets/251d35de-231a-41c0-b735-feb5c6cee53a">
+      </td>
     </tr>
   </table>
 </p>
