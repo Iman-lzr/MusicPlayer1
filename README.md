@@ -29,7 +29,7 @@
           <img width="250" height="150" alt="Démarrage de l'application" src="https://github.com/user-attachments/assets/251d35de-231a-41c0-b735-feb5c6cee53a">
       </td>
       
-    </tr>
+
   </table>
 </p>
 
